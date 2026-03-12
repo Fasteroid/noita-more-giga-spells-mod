@@ -1,0 +1,1 @@
+dofile_once("mods/more_giga_spells/files/giga_bouncy_orb/spell.lua")
