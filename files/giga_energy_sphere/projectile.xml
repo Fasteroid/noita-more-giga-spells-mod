@@ -87,7 +87,7 @@
 	<SpriteComponent 
 		_enabled="1" 
 		alpha="1" 
-		image_file="mods/more_giga_spells/files/giga_bouncy_orb/sprite.xml" 
+		image_file="mods/more_giga_spells/files/giga_energy_sphere/sprite.xml" 
 		next_rect_animation=""
 		rect_animation="" 
 		>
@@ -234,7 +234,7 @@
 	</AudioComponent>
 
 	<LuaComponent
-		script_source_file="mods/more_giga_spells/files/giga_bouncy_orb/projectile.lua"
+		script_source_file="mods/more_giga_spells/files/giga_energy_sphere/projectile.lua"
 		execute_every_n_frame="2"
 		remove_after_executed="1"
 		>
@@ -242,7 +242,7 @@
 	
 	<VariableStorageComponent
 		name="projectile_file"
-		value_string="mods/more_giga_spells/files/giga_bouncy_orb/projectile.xml"
+		value_string="mods/more_giga_spells/files/giga_energy_sphere/projectile.xml"
 		>
 	</VariableStorageComponent>
 	
