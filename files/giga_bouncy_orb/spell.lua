@@ -15,6 +15,7 @@ table.insert( actions, {
 		-- damage = 0.3
         c.fire_rate_wait = c.fire_rate_wait + 40
         c.spread_degrees = c.spread_degrees + 6
+		c.screenshake    = c.screenshake    + 1
 		c.game_effect_entities = c.game_effect_entities .. "data/entities/misc/effect_disintegrated.xml,"
         shot_effects.recoil_knockback = shot_effects.recoil_knockback + 140.0
 	end,
