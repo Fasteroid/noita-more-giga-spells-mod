@@ -1,2 +1,5 @@
 action_giga_energy_sphere,Giga Energy Sphere,,,,,,,,,,,,,,,,,,,,,,,
-actiondesc_giga_energy_sphere,"A large, fast, and dangerous arcing projectile",,,,,,,,,,,,,,,,,,,,,,,
+actiondesc_giga_energy_sphere,"A large and destructive orb of energy",,,,,,,,,,,,,,,,,,,,,,,
+
+action_giga_spark_bolt,Giga Spark Bolt,,,,,,,,,,,,,,,,,,,,,,,
+actiondesc_giga_spark_bolt,"A large and volatile sparkling projectile",,,,,,,,,,,,,,,,,,,,,,,
