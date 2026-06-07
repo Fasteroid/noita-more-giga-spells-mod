@@ -3,3 +3,6 @@ actiondesc_giga_energy_sphere,"A large and destructive orb of energy",,,,,,,,,,,
 
 action_giga_spark_bolt,Giga Spark Bolt,,,,,,,,,,,,,,,,,,,,,,,
 actiondesc_giga_spark_bolt,"A large and volatile sparkling projectile",,,,,,,,,,,,,,,,,,,,,,,
+
+action_giga_spitter_bolt,Giga Spitter Bolt,,,,,,,,,,,,,,,,,,,,,,,
+actiondesc_giga_spitter_bolt,"A dangerous and unstable magic orb",,,,,,,,,,,,,,,,,,,,,,,
