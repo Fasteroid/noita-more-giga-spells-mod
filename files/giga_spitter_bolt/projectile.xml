@@ -108,6 +108,14 @@
 		>
 	</LuaComponent>
 
+	<LuaComponent 
+		_enabled="1" 
+		script_source_file="mods/more_giga_spells/files/giga_spitter_bolt/damage.lua" 
+		execute_every_n_frame="2"
+		remove_after_executed="1"
+		>
+	</LuaComponent>
+
 	<LightComponent 
 		_enabled="1" 
 		radius="150" 

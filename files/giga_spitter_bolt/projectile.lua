@@ -6,14 +6,12 @@ local pos_x, pos_y = EntityGetTransform( projectile )
 local velComponent = EntityGetFirstComponent( projectile, "VelocityComponent" )
 local vx, vy = ComponentGetValue2( velComponent, "mVelocity")
 
-EntitySetComponentsWithTagEnabled( projectile, "area_damage", true )
-
 local how_many = 5
-local length = 200
 
 for i=1, how_many do
 
     local theta = math.random() * 2 * 3.1416926
+    local length = math.random() * 250
 
     local spark = EntityLoad( "data/entities/projectiles/deck/spitter.xml", pos_x, pos_y)
 
