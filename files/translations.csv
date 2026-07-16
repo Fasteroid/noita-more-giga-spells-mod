@@ -6,3 +6,6 @@ actiondesc_giga_spark_bolt,"A large and volatile sparkling projectile",,,,,,,,,,
 
 action_giga_spitter_bolt,Giga Spitter Bolt,,,,,,,,,,,,,,,,,,,,,,,
 actiondesc_giga_spitter_bolt,"A dangerous and unstable magic orb",,,,,,,,,,,,,,,,,,,,,,,
+
+action_giga_healing_bolt,Giga Healing Bolt,,,,,,,,,,,,,,,,,,,,,,,
+actiondesc_giga_healing_bolt,"Surely healing can't be THAT dangerous, right?",,,,,,,,,,,,,,,,,,,,,,,
