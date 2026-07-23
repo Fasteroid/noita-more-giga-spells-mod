@@ -15,3 +15,5 @@ end
 
 -- This code runs when all mods' filesystems are registered
 ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/more_giga_spells/files/actions.lua" ) -- Basically dofile("mods/example/files/actions.lua") will appear at the end of gun_actions.lua
+
+ModMaterialsFileAdd("mods/more_giga_spells/files/materials.xml")

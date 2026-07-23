@@ -1,0 +1,37 @@
+<Materials>
+    <CellData
+        name="giga_bouncy_box2d"
+        ui_name="$mat_giga_bouncy"
+        tags="[box2d],[solid],[earth],[alchemy]"
+        wang_color="ff529b12"
+        cell_type="solid"
+        hp="100000"
+    	show_in_creative_mode="1"
+
+	    solid_restitution="1.35"
+        audio_physics_material_wall="metalhollow_barrel"
+        audio_physics_material_solid="metalhollow_barrel"
+        audio_physics_material_event="metalhollow_barrel"
+        solid_on_collision_material="giga_bouncy_box2d"
+	    solid_on_collision_splash_power="0.01"
+        audio_size_multiplier="2"
+
+        burnable="1"
+        requires_oxygen="1"
+        fire_hp="-1"
+
+        density="10"
+        gfx_glow="100"
+        temperature_of_fire="20"
+        autoignition_temperature="80"
+
+        solid_static_type="0"
+        solid_collide_with_self="1"
+        solid_on_sleep_convert="0"
+        solid_friction="2.0"
+        platform_type="1"
+    >
+    </CellData>
+</Materials>
+
+<!-- the wang color is technically wrong (this one is orange), but makes nice particle effects -->
