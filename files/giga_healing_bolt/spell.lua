@@ -10,6 +10,7 @@ table.insert( actions, {
 	price = 450,
 	mana = 200,
 	max_uses = 5,
+	never_unlimited		= true,
 	action 		= function()
 		add_projectile("mods/more_giga_spells/files/giga_healing_bolt/projectile.xml")
 		-- damage = 0.3
