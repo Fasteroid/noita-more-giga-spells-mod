@@ -13,7 +13,7 @@
         audio_physics_material_solid="metalhollow_barrel"
         audio_physics_material_event="metalhollow_barrel"
         solid_on_collision_material="giga_bouncy_box2d"
-	    solid_on_collision_splash_power="0.01"
+	    solid_on_collision_splash_power="0.05"
         audio_size_multiplier="2"
 
         burnable="1"
@@ -33,5 +33,3 @@
     >
     </CellData>
 </Materials>
-
-<!-- the wang color is technically wrong (this one is orange), but makes nice particle effects -->
