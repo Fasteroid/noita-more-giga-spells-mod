@@ -82,7 +82,7 @@ for _, vict in ipairs(victims) do
     if( towardsness < 0 ) then goto continue_0 end -- already hit the player
 
     -- hacky? yes, but this works much better than trying to get box2d to do it
-    ComponentSetValue2(damage, "mPhysicsDamageThisFrame", math.floor(ball_speed * towardsness) * 5 / 25 )
+    ComponentSetValue2(damage, "mPhysicsDamageThisFrame", math.floor(ball_speed * towardsness) / 25 )
     ComponentSetValue2(damage, "mPhysicsDamageEntity", ball)
 
     ::continue_0::
