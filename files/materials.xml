@@ -5,7 +5,7 @@
         tags="[box2d],[solid],[earth],[alchemy]"
         wang_color="ff529b12"
         cell_type="solid"
-        hp="100000"
+        hp="10000"
     	show_in_creative_mode="1"
 
 	    solid_restitution="1.35"
@@ -18,7 +18,7 @@
 
         burnable="1"
         requires_oxygen="1"
-        fire_hp="-1"
+        fire_hp="5000"
 
         density="10"
         gfx_glow="100"
